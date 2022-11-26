@@ -20,9 +20,9 @@ font.init()
 fnt = font.SysFont('Arial', 24)
 fnt_gameover = font.SysFont('Arial', 70)
 
-#mixer.init()
-#mixer.music.load("space.ogg")
-#mixer.music.play(-1)
+mixer.init()
+mixer.music.load("space.ogg")
+mixer.music.play(-1)
 
 clock = time.Clock()
 
