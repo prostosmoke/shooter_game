@@ -161,5 +161,5 @@ while not game_over:
         if win >= 10:
             text("YOU WIN", (0, 255, 0), "center", fnt_gameover)
         else:
-            text("YOU LOOSE", (255, 0, 0), "center", fnt_gameover)
+            text("YOU LOSE", (255, 0, 0), "center", fnt_gameover)
         display.update()
